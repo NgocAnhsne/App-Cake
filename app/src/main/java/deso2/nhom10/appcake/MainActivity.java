@@ -3,6 +3,14 @@ package deso2.nhom10.appcake;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.widget.Adapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
@@ -20,8 +28,6 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView nav;
     ListView list;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-
     }
-//
+
 }
